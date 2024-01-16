@@ -1,0 +1,94 @@
+
+.main-container {
+    position: absolute;
+    /* background-color: rgb(204, 197, 243); */
+    /* background-color: rgb(249, 229, 205); */
+    background-color: rgb(200, 180, 280);
+    height: 100%;
+    width: 100%;
+}
+.head-container {
+    display: flex;
+    justify-content: space-around;
+    width: '800px';
+    height: '200px';
+    padding: 50px;
+}
+.first-header {
+    display: flex;
+}
+.first-header img{
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    color: hsla(240, 83%, 16%, 0.813);
+}
+.first-header h1 {
+    color: hsla(240, 83%, 16%, 0.813);
+    margin-left: 0.5rem;
+}
+.sub-header ul{
+    /* border: 1px solid red; */
+    width: 600px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.sub-header ul li a{
+    margin-right: 2.5rem;
+    text-decoration: none;
+    color:  hsla(240, 83%, 16%, 0.813);
+    font-weight: bold;
+}
+.drop-arrow a img{
+    height: 13px;
+    width: 13px;
+
+}
+
+.dropdown-content {
+    background-color: antiquewhite;
+}
+
+.dropdown-content ul {
+    position: relative;
+    border: 1px solid blue;
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.buttonTag button {
+    margin-left: 2.5rem;
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+}
+.buttonTag a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#button1 {
+    text-decoration: none;
+    border: 1px solid rgb(23, 23, 230);
+    border-radius: 5px;
+    color: blue;
+    font-size: 15px;
+    background-color:rgb(200, 180, 280);
+}
+#button1 a {
+    color: blue;
+}
+#button2 {
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(20, 20, 198);
+}
+#button2 a {
+    color: white;
+}
