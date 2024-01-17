@@ -1,21 +1,20 @@
 
 .main-container {
     position: absolute;
-    /* background-color: rgb(204, 197, 243); */
-    /* background-color: rgb(249, 229, 205); */
     background-color: rgb(200, 180, 280);
     height: 100%;
     width: 100%;
 }
 .head-container {
+    position: absolute;
     display: flex;
+    margin-left: 70px;
+    height: 200px;
     justify-content: space-around;
-    width: '800px';
-    height: '200px';
-    padding: 50px;
 }
 .first-header {
     display: flex;
+    
 }
 .first-header img{
     height: 30px;
@@ -26,6 +25,7 @@
 .first-header h1 {
     color: hsla(240, 83%, 16%, 0.813);
     margin-left: 0.5rem;
+    
 }
 .sub-header ul{
     /* border: 1px solid red; */
@@ -50,15 +50,18 @@
 
 .dropdown-content {
     background-color: antiquewhite;
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    margin-right: 400px;
+    border-radius: 20px;
 }
 
 .dropdown-content ul {
     position: relative;
-    border: 1px solid blue;
     height: 300px;
     width: 400px;
     margin-top: 50px;
-    overflow: hidden;
 }
 .buttonTag button {
     margin-left: 2.5rem;
@@ -77,18 +80,37 @@
     color: blue;
     font-size: 15px;
     background-color:rgb(200, 180, 280);
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+
+}
+#button1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.2);
+}
+#button1:active {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0);
+    transform: scale(0.99);
 }
 #button1 a {
     color: blue;
 }
 #button2 {
     text-decoration: none;
-    border: 1px solid blue;
+    border: 1px solid blue;box-shadow: 0 0 10px rgba(0, 0, 255, 0);
     border-radius: 5px;
     color: white;
     font-size: 15px;
     background-color: rgb(20, 20, 198);
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+
 }
 #button2 a {
     color: white;
+}
+
+#button2:hover {
+    box-shadow: 0 0 20px rgba(300, 100, 180, 0.7);
+}
+#button2:active {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0);
+    transform: scale(0.85);
 }
