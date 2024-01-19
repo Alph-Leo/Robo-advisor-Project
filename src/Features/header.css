@@ -2,7 +2,7 @@
 .main-container {
     position: absolute;
     background-color: rgb(200, 180, 280);
-    height: 100%;
+    height: 1500px;
     width: 100%;
 }
 .head-container {
@@ -113,4 +113,121 @@
 #button2:active {
     box-shadow: 0 0 10px rgba(0, 0, 255, 0);
     transform: scale(0.85);
+}
+.second-container {
+    background-color: rgba(244, 137, 196, 0.1);
+    display: flex;
+    margin-left: 70px;
+    margin-top: 100px;
+    height: 800px;
+    width: 89.5%;
+    /* border: 1px solid blue; */
+}
+.first-inner {
+    height: 650px;
+    width: 500px;
+    /* border: 1px solid purple; */
+}
+.first-inner h1 {
+    font-style: italic;
+    font-family: serif;
+    font-size: xxx-large;
+    color:  hsla(240, 83%, 16%, 0.813);
+}
+.first-inner span h1{
+    font-style: italic;
+    font-weight: 1000;
+    font-size: xxx-large;
+    color:  hsla(240, 83%, 16%, 0.813);
+}
+.first-inner h5 {
+    padding: 20px;
+    color:  hsla(240, 83%, 16%, 0.813);
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.second-inner {
+    height: 650px;
+    width: 800px;
+    margin-top: 30px;
+    /* border: 1px solid purple; */
+}
+.second-inner img{
+    height: 600px;
+    width: 700px;
+    margin-top: 50px;
+
+}
+.get-started {
+    /* border: 1px solid blue; */
+    height: 70px;
+      
+}
+.get-started button {
+    height: 45px;
+    width: 130px;
+    margin-right: 300px;
+    text-decoration: none;
+    border: 1px solid blue;box-shadow: 0 0 10px rgba(0, 0, 255, 0);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(20, 20, 198);
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.get-started button:hover {
+    box-shadow: 0 0 20px rgba(300, 100, 180, 0.7);
+}
+.get-started button:active {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0);
+    transform: scale(0.85);
+}
+.head-container2 {
+    display: flex;
+    height: 200px;
+    width: 1200px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.box1 {
+    height: 200px;
+    justify-content: flex-start;
+}
+.inner-box1 {
+    display: flex;
+}
+.box1 img {
+    height: 30px;
+    margin-top: 20px;
+}
+ h2 {
+    color:  hsla(240, 83%, 16%, 0.813);
+}
+ h4 {
+    color:  hsla(240, 83%, 16%, 0.813);
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box2 {
+    height: 200px;
+}
+.inner-box2 {
+    display: flex;
+}
+.box2 img {
+    height: 20px;
+    margin-top: 27px;
+}
+.box3 {
+    height: 200px;
+}
+.box4 {
+    height: 200px;
+}
+.box5 {
+    height: 200px;
+}
+.box6 {
+    height: 200px;
 }
